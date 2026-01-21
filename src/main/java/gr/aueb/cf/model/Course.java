@@ -55,4 +55,10 @@ public class Course {
 //    public void setTeacher(Teacher teacher) {
 //        this.teacher = teacher;
 //    }
+
+
+    @Override
+    public String toString() {
+        return String.format("%d %s", id, title);
+    }
 }
